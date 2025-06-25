@@ -12,12 +12,13 @@
     text-align: left;
     max-width: 400px;
     position: relative;
-    left: 110px; 
+    left: 100px; 
+    top: 50px;
 }
 .hero-text h1 {
     font-size: 72px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 .btn.orange img {
@@ -27,7 +28,7 @@
 .btn.orange {
     background: #EF6D1D;
     color: #FFFFFF; 
-    padding:7px 17px;
+    padding:10px 17px;
     font-size: 14px;
     border-radius: 30px;
     border: 0;
