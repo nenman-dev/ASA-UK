@@ -1,0 +1,53 @@
+.about {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.about-left {
+    position: relative;
+    width: 45%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+   
+}
+.about-right {
+    background: #EF6D1D;
+    line-height: 120%;
+    width: 55%;
+    padding: 70px;
+    position: relative;
+    align-self: flex-start;
+    bottom: 40px;
+    right: 20px;
+    
+}
+.about img {
+    width: 412px;
+    height: auto;
+}
+.play-icon {
+    width: 60px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.about h4 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.about p {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.btn img {
+    width: 5px;
+    margin: 5px;
+}

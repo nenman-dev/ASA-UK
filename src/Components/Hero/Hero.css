@@ -1,0 +1,40 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background:url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.hero-text {
+    text-align: left;
+    max-width: 400px;
+    position: relative;
+    left: 110px; 
+}
+.hero-text h1 {
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn.orange img {
+    margin-left: 10px;
+    width: 5px;
+}
+.btn.orange {
+    background: #EF6D1D;
+    color: #FFFFFF; 
+    padding:7px 17px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
