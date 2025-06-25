@@ -1,37 +1,38 @@
 .about {
     margin: auto;
     display: flex;
+    position: relative;
     align-items: center;
     width: 80%;
 }
 .about-left {
     position: relative;
-    width: 45%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-   
+    width: 45%; 
 }
 .about-right {
     background: #EF6D1D;
     line-height: 120%;
     width: 55%;
-    padding: 70px;
+    padding: 50px 40px 50px 80px;
     position: relative;
     align-self: flex-start;
     bottom: 40px;
     right: 20px;
-    
+    z-index: 1;
 }
 .about img {
     width: 412px;
     height: auto;
+    position: relative;
+    left: 20px;
+    
+    z-index: 2;
 }
-.play-icon {
+.play_icon {
     width: 60px!important;
-    position: absolute;
+    position: absolute!important;
     top: 50%;
-    left: 50%;
+    left: 50%!important;
     transform: translate(-50%,-50%);
     cursor: pointer;
 }
@@ -47,7 +48,20 @@
     margin-bottom: 15px;
     font-size: 16px;
 }
+.btn {
+    margin-top: 20px;
+    color: #FFFFFF; 
+    padding: 7px 25px;
+    background: #EF6D1D;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn img {
     width: 5px;
-    margin: 5px;
+    margin-right: 10px;
 }
