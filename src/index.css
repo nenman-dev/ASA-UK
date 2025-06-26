@@ -2,6 +2,14 @@
     font-family: 'Brown';
     src: url('../src/assets/fonts/BrownLight\ Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Brown-Bold';
+    src: url('../src/assets/fonts/Brown\ Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Brown-Medium';
+    src: url('../src/assets/fonts/BrownMedium\ Regular.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +54,7 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Brown-Medium';
 }
 .btn.green {
     background: #123234;
@@ -59,4 +68,5 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Brown-Medium';
 }

@@ -1,0 +1,10 @@
+.latest {
+    margin: 5px auto;
+    width: 100%;
+    text-align: left;
+}
+.latest-gallery{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; 
+}
