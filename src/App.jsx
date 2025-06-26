@@ -6,6 +6,8 @@ import Title from './Components/Title/Title'
 import Pillars from './Components/Pillars/Pillars'
 import Events from './Components/Events/Events'
 import Latest from './Components/Latest/Latest'
+import Join from './Components/JoinUs/Join'
+
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           <Events/>
           <Title title='Latest News'/>
           <Latest/>
+          <Join/>
         </div>
     </div>
   )

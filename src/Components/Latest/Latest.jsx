@@ -7,7 +7,6 @@ import img_4 from '../../assets/img_4.png'
 import GalleryCard from '../GalleryCard/GalleryCard'
 
 
-
 const Latest = () => {
 
 const rawDate = new Date('2019-05-30');
