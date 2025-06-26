@@ -1,0 +1,34 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img {
+    width: 90%;
+    height: auto; 
+}
+.gallery p {
+    position: relative;
+    bottom: 50px;
+    background: #FFFFFF;
+    color: #333333;
+    font-weight: 400;
+    font-size: 22px;
+    justify-self: flex-start;
+    padding: 3px 7px;
+    font-family: 'Brown-Medium';
+}
+.content  {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.arrow {
+    position: relative;
+    bottom: 50px;
+    right: 41px;
+    width: 6px!important;
+}
