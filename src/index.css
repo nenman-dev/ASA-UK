@@ -9,7 +9,7 @@
     font-family: 'Brown';
 }
 body {
-    background: #f5f5f5;
+    background: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -18,8 +18,8 @@ a {
     cursor: pointer;
 }
 .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .btn {
     color: #FFFFFF; 
