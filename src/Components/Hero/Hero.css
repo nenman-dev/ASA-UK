@@ -3,7 +3,7 @@
     min-height: 100vh;
     background:url('../../assets/hero.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     color: #fff;
     display: flex;
     align-items: center;

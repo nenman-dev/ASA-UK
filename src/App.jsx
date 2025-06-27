@@ -7,11 +7,14 @@ import Pillars from './Components/Pillars/Pillars'
 import Events from './Components/Events/Events'
 import Latest from './Components/Latest/Latest'
 import Join from './Components/JoinUs/Join'
+import Topbar from './Components/Topbar/Topbar'
+import Brands from './Components/Brands/Brands'
 
 
 const App = () => {
   return (
     <div>
+        <Topbar/>
         <Navbar/>
         <Hero/>
         <div className='container'>
@@ -24,6 +27,7 @@ const App = () => {
           <Latest/>
           <Join/>
         </div>
+        <Brands/>
     </div>
   )
 }
