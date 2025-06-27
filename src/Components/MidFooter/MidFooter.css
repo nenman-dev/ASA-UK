@@ -1,0 +1,33 @@
+.mid-footer {
+    width: 100%;
+    background: linear-gradient(rgba(18, 50, 52, 0.4),rgba(18, 50, 52, 0.4)), url('../../assets/mid-footer.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.mid-footer-content {
+    width: 30%;
+    margin: auto;
+}
+ .mid-footer-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+ }
+ .btn.foot-content {
+    border: none;
+    padding: 13px;
+    width: 55%;
+    font-size: 18px;
+    align-content: center;
+    display: flex;
+    justify-self: center;
+}
+.btn.foot-content img {
+    width: 7px;
+}

@@ -1,0 +1,36 @@
+.top-footer {
+    width: 100%;
+    background: #123234;
+}
+
+.top-footer-content {
+    width: 80%;
+    color: #FFFFFF;
+    margin: auto;
+}
+.top-footer-content p {
+    font-size: 36px;
+    padding-top: 30px;
+    font-family: 'Brown';
+}
+.top-footer-content ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.top-footer-content ul li {
+    font-size: 18px;
+    width: 20%;
+    list-style: none;
+    font-weight: 400;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #FFFFFF;
+    font-family: 'Brown';
+}
+.top-footer-content ul img {
+    width: 15px;
+    margin-left: 10px;
+   
+}
