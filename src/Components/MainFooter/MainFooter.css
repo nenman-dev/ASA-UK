@@ -1,0 +1,84 @@
+.main-footer {
+    background: rgba(18, 50, 52, 1);
+    width: 100%;
+    padding-bottom: 15px;
+}
+.main-footer-col {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    
+}
+.col-one {
+    width: 32%;
+}
+h4 {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    align-items: center;
+    text-align: left;
+}
+.col-one p {
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5em;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.col-two {
+    width: 16%;
+    font-size: 12px;
+}
+.contact-details {
+    max-width: 70%;
+}
+.contact-details  p {
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5em; 
+}
+.contact-details .label {
+    color: gray;
+    font-family: 'Brown-Medium';
+    margin-bottom: 6px;   
+}
+.reg {
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+.col-three {
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    width: 17%;
+}
+ul li {
+    list-style: none;
+    line-height: 2em;
+    font-family: 'Brown-Medium';
+}
+.col-three {
+    width: 17%;
+}
+.col-four {
+    width: 20%;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.social img {
+    width: 30px;
+    height: auto;
+}
+.social .icon_twitter  {
+    width: 44px!important;
+}
+.social .icon_mix {
+    width: 34px!important;
+    height:auto;
+ 
+}

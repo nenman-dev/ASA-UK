@@ -11,6 +11,8 @@ import Topbar from './Components/Topbar/Topbar'
 import Brands from './Components/Brands/Brands'
 import TopFooter from './Components/TopFooter/TopFooter'
 import MidFooter from './Components/MidFooter/MidFooter'
+import MainFooter from './Components/MainFooter/MainFooter'
+import Bottom from './Components/BottomFooter/BottomFooter'
 
 
 
@@ -33,6 +35,8 @@ const App = () => {
       <Brands/>
       <TopFooter/>
       <MidFooter/>
+      <MainFooter/>
+      <Bottom/>
 
     </div>
   )
