@@ -1,8 +1,8 @@
 .topbar {
     display: flex;
     justify-content: right;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     align-items: center;
 }
 .topbar-links {

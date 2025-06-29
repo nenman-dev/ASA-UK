@@ -12,7 +12,7 @@
     
 }
 .col-one {
-    width: 32%;
+    width: 40%;
 }
 h4 {
     margin-bottom: 20px;
@@ -28,7 +28,7 @@ h4 {
     font-size: 16px;
 }
 .col-two {
-    width: 16%;
+    width: 23%;
     font-size: 12px;
 }
 .contact-details {
@@ -51,18 +51,15 @@ h4 {
 .col-three {
     color: rgba(189, 189, 189, 1);
     font-size: 14px;
-    width: 17%;
+    width: 28%;
 }
 ul li {
     list-style: none;
     line-height: 2em;
     font-family: 'Brown-Medium';
 }
-.col-three {
-    width: 17%;
-}
 .col-four {
-    width: 20%;
+    width: 26%;
 }
 .social {
     display: flex;
