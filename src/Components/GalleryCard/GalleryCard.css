@@ -46,6 +46,27 @@
     margin-left: 10px;
     justify-content: left;
 }
-@media (max-width: 1100px) {
-
+@media (max-width: 768px) {
+    .latest-gallery p {
+        font-size: 20px;
+        padding: 7px 13px;
+        bottom: 70px;
+    }
+    .under-content h5 {
+        font-size: 20px;
+    }
+    .under-content h6 {
+        font-size: 16px;
+    }
+    .latest-link {
+        flex-wrap: wrap;
+    }
+    .latest-link .latest-date {
+        position: none;
+        font-size: 16px;
+        align-self: flex-start;
+    }
+    .btn.latest {
+        font-size: 16px;
+    }
 }

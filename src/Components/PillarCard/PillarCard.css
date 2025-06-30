@@ -39,10 +39,8 @@
     }
     .gallery img {
         width: 400px;
-        height: auto;
-        
+        height: auto; 
     }
-   
     .content  {
         display: flex;
         height: 30px;
@@ -59,7 +57,7 @@
 }
 @media (max-width: 500px) {
     .gallery img {
-        width: 400px;
+        width: 300px;
         height: auto;   
     }
    

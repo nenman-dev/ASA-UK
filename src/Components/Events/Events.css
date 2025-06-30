@@ -57,3 +57,22 @@
     cursor: pointer;
     font-family: 'Brown-Medium';
 }
+@media (max-width: 1100px) {
+    .events {
+        flex-direction: column; 
+    }
+    .events p {
+        max-width: 400px;
+    }
+    .events .text {
+        font-size: 14px;
+        margin: 10px 20px 20px 20px;
+        max-width: 300px;
+    }
+    .events-left {
+        width: 90%;
+    }
+    .events-right {
+        width: 90%;
+    }
+}

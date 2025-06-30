@@ -6,7 +6,7 @@ const Events = () => {
 
     const rawDate = new Date('2019-05-30');
 
-        const formatted = new Intl.DateTimeFormat('en-GB').format(rawDate); 
+    const formatted = new Intl.DateTimeFormat('en-GB').format(rawDate); 
 
   return (
     <div className='events'>

@@ -29,6 +29,12 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 }
+@media (max-width: 1000px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
 .btn {
     color: #FFFFFF; 
     padding:7px 17px;

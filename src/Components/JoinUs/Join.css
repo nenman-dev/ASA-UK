@@ -59,3 +59,33 @@
 .btn img {
     margin-left: 15px;
 }
+@media (max-width: 768px) {
+    .join {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .join-left {
+        width: 90%;
+        position: relative;   
+        padding: 20px;   
+        margin-top: 15px; 
+    }
+    .btn.join {
+        width: 75%;
+    }
+    .join-right {
+        width: 90%;
+        padding: 0;
+        margin-top: 10px;
+        left: 0; 
+        z-index: 0;
+        position: none;
+    }
+    .join-right img {
+        width: 268px;
+        height: auto;
+    }
+    .btn img {
+        margin-left: 5px;
+    }
+}
