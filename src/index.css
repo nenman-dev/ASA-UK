@@ -42,20 +42,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.btn.orange {
-    background: #EF6D1D;
-    color: #FFFFFF; 
-    padding:7px 17px;
-    font-size: 14px;
-    border-radius: 30px;
-    border: 0;
-    cursor: pointer;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Brown-Medium';
-}
+
 .btn.green {
     background: #123234;
     color: #FFFFFF; 

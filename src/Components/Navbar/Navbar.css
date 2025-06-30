@@ -1,4 +1,4 @@
-nav {
+.navbar {
     width: 100%;
     color: #fff;
     padding-top: 25px;
@@ -9,9 +9,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 25px;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-left: 5%;
 }
+
 .logo {
     width: 208px;
     align-self: flex-start;
@@ -23,4 +24,77 @@ nav ul li {
     font-size: 14px;
     font-family: 'Brown-Medium';
 }
+.btn.orange {
+    background: #EF6D1D;
+    color: #FFFFFF; 
+    padding:7px 17px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Brown-Medium';
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  position: relative;
+}
+@media (max-width: 1100px) {
+    .logo {
+        width: 170px;
+    }
+    .navbar {
+        position: absolute;
+        display: flex;
+        top: 45px;
+        padding-top:10px;
+        align-items: center;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        cursor: pointer;
+        right: 0;
+        z-index: 999;
+        align-items: center;
+        background: white;
+        color: black;
+        padding: 20px;
+        padding-top: 40px;
+        width: 50vw;
+        height:100vh;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
 
+    .nav-links.show {
+        display: flex;
+    }
+    .btn.orange {
+        margin-bottom: 0px!important;
+    }
+    .icon {
+        width: 70px;
+        height: 30px;
+        object-fit: contain;
+        
+    }
+    .menu-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
