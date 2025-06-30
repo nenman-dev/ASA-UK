@@ -42,9 +42,7 @@
     
 }
 @media (max-width: 1100px) {
-    .hero {
-        background-size: contain;
-    }
+    
     .hero-text {
         text-align: left;
         max-width: 400px;

@@ -5,12 +5,12 @@ import white_arrow from '../../assets/arrow.svg'
 import play_icon from '../../assets/play.svg'
 
 
-const About = () => {
+const About = ({setPlayState}) => {
   return (
     <div className='about'>
         <div className='about-left'>
             <img src={about_img} alt="about_img"/>
-            <img src={play_icon} alt="play_icon" className='play_icon'/>
+            <img src={play_icon} alt="" className='play_icon' onClick={()=>{setPlayState(true)}}/>
         </div>
         <div className='about-right'>
             <h4>What we do. <br/>Promoting Africa.</h4>

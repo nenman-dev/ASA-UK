@@ -32,3 +32,35 @@
     right: 41px;
     width: 6px!important;
 }
+
+@media (max-width: 1100px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 400px;
+        height: auto;
+        
+    }
+   
+    .content  {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        gap: 10px;
+
+    }
+    .arrow {
+        position: relative;
+        bottom: 50px;
+        right: 41px;
+        width: 6px!important;
+    }
+}
+@media (max-width: 500px) {
+    .gallery img {
+        width: 400px;
+        height: auto;   
+    }
+   
+}
