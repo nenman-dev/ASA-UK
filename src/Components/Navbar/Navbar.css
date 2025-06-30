@@ -90,11 +90,30 @@ nav ul li {
         width: 70px;
         height: 30px;
         object-fit: contain;
-        
     }
     .menu-toggle {
         background: none;
         border: none;
         cursor: pointer;
+    }
+}
+@media (max-width: 500px) {
+    .logo {
+        width: 130px;
+    }
+    .navbar {
+        position: absolute;
+        display: flex;
+        top: 45px;
+        padding-top: 10px;
+        align-items: center;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    .icon {
+        width: 50px;
+        height: 25px;
+        object-fit: contain;
+        
     }
 }
