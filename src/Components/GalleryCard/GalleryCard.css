@@ -46,11 +46,15 @@
     margin-left: 10px;
     justify-content: left;
 }
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
+    .latest-gallery img {
+        width: 100%;
+        height: auto; 
+    }
     .latest-gallery p {
-        font-size: 20px;
-        padding: 7px 13px;
-        bottom: 70px;
+        font-size: 22px;
+        padding: 3px 7px;
+        bottom: 60px;
     }
     .under-content h5 {
         font-size: 20px;

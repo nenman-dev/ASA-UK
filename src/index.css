@@ -29,10 +29,10 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .container {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 5%!important;
+        padding-right: 5%!important;
     }
 }
 .btn {
@@ -52,8 +52,8 @@ a {
 .btn.green {
     background: #123234;
     color: #FFFFFF; 
-    padding: 7px 16px;
-    font-size: 14px;
+    padding: 8px 17px;
+    font-size: 15px;
     border-radius: 30px;
     border: 0;
     cursor: pointer;
@@ -62,4 +62,9 @@ a {
     align-items: center;
     justify-content: center;
     font-family: 'Brown-Medium';
+}
+.btn.green:hover {
+    background: #ffffff;
+    color: #000000;  
+    border: 2px solid #123234;
 }

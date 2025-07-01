@@ -9,7 +9,6 @@
     display: flex;
     gap: 30px;
     padding-top: 40px;
-    
 }
 .col-one {
     width: 40%;
@@ -65,7 +64,6 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
 }
 .social img {
     width: 30px;
@@ -78,4 +76,29 @@ ul li {
     width: 34px!important;
     height:auto;
  
+}
+@media (max-width: 786px) {
+    .main-footer-col {
+        width: 90%;
+        flex-direction: column;
+    }
+    .col-one {
+        width: 85%;
+    }
+    .col-two {
+        width: 70%!important;
+        font-size: 16px;
+    }
+    .contact-details {
+        max-width: 75%;
+    }
+    .col-three {
+        color: rgba(189, 189, 189, 1);
+        font-size: 16px;
+        width: 70%;
+    }
+    .col-four {
+        width: 60%;
+    }
+    
 }

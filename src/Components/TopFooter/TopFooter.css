@@ -17,8 +17,7 @@
     display: flex;
     gap: 30px;
     padding-top: 25px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;    
 }
 .top-footer-content ul li {
     font-size: 18px;
@@ -32,5 +31,17 @@
 .top-footer-content ul img {
     width: 15px;
     margin-left: 10px;
-   
+}
+@media (max-width: 1050px) {
+    .top-footer-content {
+        width: 95%;    
+    }
+    .top-footer-content ul li {
+        font-size: 13px;
+        width: 24%;
+    }
+    .top-footer-content ul img {
+        width: 10px;
+        margin-left: 5px;
+    }
 }

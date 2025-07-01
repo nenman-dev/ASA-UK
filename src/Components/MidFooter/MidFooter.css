@@ -4,22 +4,22 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     display: flex;
     align-items: center;justify-content: center;
 }
 .mid-footer-content {
-    width: 30%;
+    max-width: 30%;
     margin: auto;
 }
- .mid-footer-content h3 {
+.mid-footer-content h3 {
     font-size: 48px;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
- }
- .btn.foot-content {
+}
+.btn.foot-content {
     border: none;
     padding: 13px;
     width: 55%;
@@ -30,4 +30,31 @@
 }
 .btn.foot-content img {
     width: 7px;
+}
+@media (max-width: 1050px) {
+    .mid-footer-content  {
+        font-size: 40px;
+        margin-top: 15%!important;
+        max-width: 70%!important;
+    }
+    .btn.foot-content {
+        border: none;
+        padding: 11px;
+        width: 58%!important;
+        font-size: 18px;
+        align-content: center;
+        display: flex;
+        justify-self: center;
+    }
+    @media (max-width: 500px) {
+        .mid-footer-content h3 {
+            font-size: 37px;
+            margin-top: 10%!important;
+        }
+        .btn.foot-content {
+            width: 85%;
+            padding: 10px;
+        }
+    }
+
 }
