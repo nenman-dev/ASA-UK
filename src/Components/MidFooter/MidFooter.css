@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;justify-content: center;
@@ -12,6 +12,7 @@
 .mid-footer-content {
     max-width: 30%;
     margin: auto;
+  
 }
 .mid-footer-content h3 {
     font-size: 48px;
