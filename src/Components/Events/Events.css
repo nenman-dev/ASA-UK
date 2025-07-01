@@ -57,6 +57,11 @@
     cursor: pointer;
     font-family: 'Brown-Medium';
 }
+.events-btn:hover {
+    background: #FFFFFF;
+    border: 2px solid black;
+    color: black;
+}
 @media (max-width: 1050px) {
     .events {
         flex-direction: column; 

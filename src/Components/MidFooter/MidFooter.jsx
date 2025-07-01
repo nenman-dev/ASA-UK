@@ -2,6 +2,7 @@ import React from 'react'
 import './MidFooter.css'
 import white_arrow from '../../assets/arrow.svg'
 
+
 const MidFooter = () => {
   return (
     <div className='mid-footer'>

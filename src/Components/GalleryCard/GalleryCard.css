@@ -8,9 +8,14 @@
     background: #EF6D1D;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     justify-self: flex-start;
     padding: 3px 7px;
+    cursor: pointer;
+}
+.latest-gallery p:hover {
+    background: #FFFFFF;
+    color: black;
 }
 .under-content h5 {
     color: #123234;

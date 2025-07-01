@@ -11,8 +11,7 @@
 }
 .mid-footer-content {
     max-width: 30%;
-    margin: auto;
-  
+    margin: auto; 
 }
 .mid-footer-content h3 {
     font-size: 48px;
@@ -28,6 +27,9 @@
     align-content: center;
     display: flex;
     justify-self: center;
+}
+.btn.foot-content:hover {
+    border: 2px solid #EF6D1D;
 }
 .btn.foot-content img {
     width: 7px;

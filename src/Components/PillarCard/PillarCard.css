@@ -33,6 +33,10 @@
     right: 35px;
     width: 8px!important;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.arrow.rotate {
+    transform: rotate(180deg);
 }
 
 @media (max-width: 1050px) {
