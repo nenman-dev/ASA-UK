@@ -24,14 +24,15 @@
     display: flex;
     height: 30px;
     justify-content: space-between;
-    gap: 30px;
+    gap: 70px;
 
 }
 .arrow {
     position: relative;
     bottom: 50px;
-    right: 41px;
-    width: 6px!important;
+    right: 35px;
+    width: 8px!important;
+    cursor: pointer;
 }
 
 @media (max-width: 1050px) {
@@ -54,9 +55,10 @@
     }
     .arrow {
         position: relative;
-        bottom: 50px;
-        right: 41px;
-        width: 6px!important;
+        bottom: 55px;
+        left: 45px!important;
+        cursor: pointer;
+        
     }
     .gallery p {
         bottom: 55px;
