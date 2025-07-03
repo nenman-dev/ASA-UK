@@ -13,7 +13,6 @@
     font-family: 'Brown';
     padding-bottom: 20px;
 }
-
 .newsletter-form {
     display: flex;
     gap: 15px;
@@ -66,14 +65,13 @@
   background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   min-width: 200px;
   z-index: 1000;
 }
 .dropdown-option {
   padding: 10px 15px;
   cursor: pointer;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #123234;
 }
 .dropdown-option:last-child {
   border-bottom: none;
@@ -114,6 +112,9 @@
     border: none;
     cursor: pointer;
 }
+.submit-btn span {
+    display: none;
+}
 .submit-btn img {
     width: 14px;
 }
@@ -123,8 +124,92 @@
   cursor: not-allowed;
 }
 
+@media (max-width: 1000px) {
+    .top-footer-content {
+        width: 90%;
+    }
+    .newsletter-row p {
+        font-size: 15px;
+    }
+    .dropdown-arrow {
+        width: 12px;
+        height: 12px;
+        bottom: 12px;
+    }
+    .form-group {
+        width: 20%;
+    }
+    .form-group label {
+        font-size: 14px;
+    }
 
-
+    .form-group input {
+        font-size: 13px;
+    }
+    .submit-btn img {
+        width: 9px;
+    }
+    .dropdown-options {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        font-size: 12px;
+        border-radius: 4px;
+        min-width: 150px;
+        
+    }
+    .dropdown-option {
+        padding: 10px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+    }
+}
+@media (max-width: 600px) {
+    .newsletter-form {
+        flex-direction: column!important;
+        align-items: flex-start;
+    }
+    .newsletter-row p {
+        bottom: 0px;
+    }
+    .dropdown-arrow {
+        top: 9px;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    .form-group input {
+        position: relative;
+        bottom: 13px;
+        left: 20px;
+    }
+    .dropdown-options {
+        position: absolute;
+        top: 150%;
+        right: 0;
+        font-size: 12px;
+        border-radius: 4px;
+        min-width: 150px;
+    }
+    .submit-btn {
+        position: relative;
+        right: 0px;
+        border: 2px solid;
+        color: #eee;
+        border-radius: 30px;
+        margin-bottom: 15px;
+    }
+    .submit-btn:hover {
+        background: #eee;
+        color: black;
+    }
+    .submit-btn span {
+        display: block;
+        font-size: 14px;
+    }
+}
 
 
 

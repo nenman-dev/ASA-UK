@@ -77,6 +77,7 @@ const TopFooter = () => {
             <ValidationError prefix="Email" field="email" errors={state.errors}/>
           </div>
           <button type="submit" disabled={state.submitting} className='submit-btn'>
+            <span>Subscribe</span>
             <img src={white_arrow} alt='' />
           </button>
         </form>
