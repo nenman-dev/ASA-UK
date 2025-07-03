@@ -2,7 +2,6 @@
     width: 100%;
     background: #123234;
 }
-
 .top-footer-content {
     width: 80%;
     color: #FFFFFF;
@@ -12,8 +11,136 @@
     font-size: 36px;
     padding-top: 30px;
     font-family: 'Brown';
+    padding-bottom: 20px;
 }
-.top-footer-content ul {
+
+.newsletter-form {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.newsletter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.newsletter-row p {
+    font-family: 'Brown';
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: 20px;
+    width: 90%;
+}
+.custom-dropdown {
+  position: relative;
+}
+.dropdown-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.dropdown-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+  position: relative;
+  bottom: 10px;
+  rotate: 90deg;
+}
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  font-family: 'Brown';
+  color: #123234;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  min-width: 200px;
+  z-index: 1000;
+}
+.dropdown-option {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+.dropdown-option:last-child {
+  border-bottom: none;
+}
+.dropdown-option:hover {
+  background-color: #f5f5f5;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.form-group label {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Brown';
+    font-size: 18px;
+}
+
+.form-group input {
+  padding: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Brown';
+  border-bottom: 2px solid #FFFFFF!important;
+  background-color: #123234;
+  font-size: 16px;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #123234;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.submit-btn img {
+    width: 14px;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .top-footer-content ul {
     display: flex;
     gap: 30px;
     padding-top: 25px;
@@ -42,6 +169,6 @@
     }
     .top-footer-content ul img {
         width: 10px;
-        margin-left: 5px;
+        margin-left: px;
     }
-}
+} */
