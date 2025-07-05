@@ -4,6 +4,8 @@
   margin-bottom: 1px;
   margin-top: 1px;
   align-items: center;
+  position: relative;
+  z-index: 999;
 }
 .topbar-links {
   display: flex;
