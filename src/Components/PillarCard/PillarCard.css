@@ -9,7 +9,10 @@
     width: 90%;
     height: auto; 
 }
-.gallery p {
+.content {
+    align-items: center;
+}
+.content h3 {
     position: relative;
     bottom: 50px;
     background: #FFFFFF;
@@ -20,17 +23,10 @@
     padding: 3px 7px;
     font-family: 'Brown-Medium';
 }
-.content  {
-    display: flex;
-    height: 30px;
-    justify-content: space-between;
-    gap: 70px;
-
-}
 .arrow {
     position: relative;
-    bottom: 50px;
-    right: 35px;
+    bottom: 72px;
+    left: 75%;
     width: 8px!important;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -44,7 +40,6 @@
         flex-wrap: wrap;
         gap: 15px;
         margin: auto;
-   
     }
     .gallery img {
         width: 100%;
@@ -57,12 +52,13 @@
         justify-content: space-between;
         gap: 10px;
     }
-    .arrow {
+    .arrow-link {
         position: relative;
-        bottom: 55px;
-        left: 45px!important;
-        cursor: pointer;
-        
+        right: 30px;
+    }
+    .arrow {
+        bottom: 50px;
+        width: 8px!important; 
     }
     .gallery p {
         bottom: 55px;

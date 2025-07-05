@@ -2,7 +2,6 @@
     margin: auto;
     display: flex;
     position: relative;
-    align-items: center;
     width: 100%;
 }
 .about-left {
@@ -13,10 +12,10 @@
     background: #EF6D1D;
     line-height: 120%;
     width: 55%;
-    padding: 50px 40px 50px 90px;
+    padding: 50px 40px 34px 63px;
     position: relative;
     align-self: flex-start;
-    bottom: 40px;
+    bottom: 25px;
     right: 20px;
     z-index: 1;
 }
@@ -24,9 +23,8 @@
     width: 412px;
     height: auto;
     position: relative;
-    left: 20px;
+    left: 0px;
     z-index: 2;
-    bottom: 5px;
 }
 .play_icon {
     width: 70px!important;
@@ -58,17 +56,12 @@
     background: #EF6D1D;
     font-size: 14px;
     border-radius: 30px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-family: 'Brown-Medium';
-}
-.btn:hover {
-    color: black; 
-    background: #FFFFFF;
-    border: 1px solid  #EF6D1D;
 }
 .btn img {
     width: 5px;
@@ -76,6 +69,18 @@
 }
 .btn .dark_arrow {
     width: 20px;
+    display: none;
+}
+.btn:hover {
+    color: black; 
+    background: #FFFFFF;
+    border: 1px solid  #EF6D1D;
+}
+.btn:hover .dark_arrow {
+    display: block;
+}
+.btn:hover .white_arrow {
+    display: none;
 }
 @media (max-width: 1050px) {
     .about {

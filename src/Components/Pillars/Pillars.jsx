@@ -10,10 +10,10 @@ const Pillars = () => {
   return (
     <div className='pillars'>
       <div className='gallery'>
-        <PillarCard image={gallery_1} label="Connect" arrowIcon={white_arrow} />
-        <PillarCard image={gallery_2} label="Learn" arrowIcon={white_arrow} />
-        <PillarCard image={gallery_3} label="Debate" arrowIcon={white_arrow} />
-        <PillarCard image={gallery_4} label="Celebrate" arrowIcon={white_arrow} />
+        <PillarCard image={gallery_1} label="Connect" arrowIcon={white_arrow} link="#connect" />
+        <PillarCard image={gallery_2} label="Learn" arrowIcon={white_arrow} link="#learn"/>
+        <PillarCard image={gallery_3} label="Debate" arrowIcon={white_arrow} link="#debate" />
+        <PillarCard image={gallery_4} label="Celebrate" arrowIcon={white_arrow}  link="#celebrate"/>
       </div>
     </div>
   );

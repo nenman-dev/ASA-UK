@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import menu_icon from '../../assets/menu_icon.png'
@@ -7,6 +7,18 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] =useState(false);
+    useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
+  }, [isOpen]);
+
   return (
     <nav className= {`navbar ${isOpen ? "open" : ""}`}>
       <header>
