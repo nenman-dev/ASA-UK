@@ -21,7 +21,12 @@
 ul li {
     font-family: 'Brown';
 }
-
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover {
+    color: black;
+}
 @media (max-width: 768px) {
     .bottom-footer-content {
         width: 93%;

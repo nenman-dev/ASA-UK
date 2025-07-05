@@ -1,6 +1,7 @@
 import  {useState} from 'react'
 import './TopFooter.css'
 import white_arrow from '../../assets/arrow.svg'
+import dark_arrow from '../../assets/dark_arrow1.png'
 import { useForm, ValidationError } from '@formspree/react';
 
 const TopFooter = () => {
@@ -67,6 +68,11 @@ const TopFooter = () => {
             />
           </div>
           <div className='form-group'>
+            <label htmlFor="firstName">First Name *</label>
+            <input id="firstName" type="text" name="firstName" required />
+            <ValidationError prefix="First Name" field="firstName" errors={state.errors}/>
+          </div>
+          <div className='form-group'>
             <label htmlFor="lastName">Last Name *</label>
             <input id="lastName" type="text" name="lastName" required />
             <ValidationError prefix="Last Name" field="lastName" errors={state.errors}/>
@@ -78,7 +84,7 @@ const TopFooter = () => {
           </div>
           <button type="submit" disabled={state.submitting} className='submit-btn'>
             <span>Subscribe</span>
-            <img src={white_arrow} alt='' />
+            <img src={white_arrow} alt='' className='white_arrow'/> <img src= {dark_arrow} alt="" className='dark_arrow' />
           </button>
         </form>
       </div>

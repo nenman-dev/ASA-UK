@@ -6,7 +6,6 @@ const GalleryCard = ({ image, tag, title, description, showButton, date, link, t
   return (
     <div className='gallery-card'>
       <img src={image} alt={tag} />
-      <p>{tag}</p>
 
     {tagLink && (
       <a href={tagLink} className="gallery-tag-link">
@@ -23,7 +22,13 @@ const GalleryCard = ({ image, tag, title, description, showButton, date, link, t
 
       {showButton && (
         <div className='latest-link'>
-          <button className='btn latest'>Read more</button>
+        {link ? (
+            <a href={link} className='btn latest'>
+              Read more
+            </a>
+          ) : (
+            <button className='btn latest'>Read more</button>
+          )}
           <p className='latest-date'>{date}</p>
         </div>
       )}

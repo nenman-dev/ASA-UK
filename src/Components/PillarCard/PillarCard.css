@@ -26,7 +26,7 @@
 .arrow {
     position: relative;
     bottom: 72px;
-    left: 75%;
+    left: 80%;
     width: 8px!important;
     cursor: pointer;
     transition: transform 0.3s ease;

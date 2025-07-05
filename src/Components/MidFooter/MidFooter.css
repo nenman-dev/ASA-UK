@@ -33,6 +33,7 @@
 }
 .btn.foot-content img {
     width: 7px;
+    margin-left: 15px;
 }
 @media (max-width: 1050px) {
     .mid-footer-content  {

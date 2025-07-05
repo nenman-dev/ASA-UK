@@ -63,9 +63,13 @@
     justify-content: center;
     font-family: 'Brown-Medium';
 }
+.btn span {
+    align-items: center ;
+    writing-mode: vertical-rl;
+}
 .btn img {
     width: 5px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .btn .dark_arrow {
     width: 20px;

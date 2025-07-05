@@ -50,14 +50,16 @@
 }
 .btn.join {
     width: 50%;
-    padding: 10px;
+    padding: 13px!important;
     padding-left: 10px;
     margin-top: 5px;
     font-size: 18px;
     font-family: 'Brown-Medium';
+    border: none!important;
 }
-.btn img {
-    margin-left: 15px;
+.btn.join span {
+    align-items: center ;
+    margin-left: 10px!important;
 }
 @media (max-width: 970px) {
     .join-text {
@@ -72,7 +74,8 @@
         width: 90%;
         position: relative;   
         padding: 20px;   
-        margin-top: 15px; 
+        margin-top: 15px!important; 
+        margin: auto;
     }
     .btn.join {
         width: 75%;
@@ -80,10 +83,11 @@
     .join-right {
         width: 90%;
         padding: 0;
-        margin-top: 10px;
+        margin-top: 10px!important;
         left: 0; 
         z-index: 0;
         position: none;
+        margin: auto;
     }
     .join-right img {
         width: 100%;
@@ -97,10 +101,11 @@
         padding-left: 10px;
         margin-top: 5px;
         font-size: 20px;
+       
         font-family: 'Brown-Medium';
     }
-    .btn img {
-        margin-left: 10px;
+    .btn.join span {
+        margin-left: 10px!important;
         align-items: center;
         position: relative;
         bottom: 2px;

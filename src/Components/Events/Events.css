@@ -50,7 +50,7 @@
     font-size: 18px;
     background: transparent;
     color: #FFFFFF;
-    padding: 5px 25px;
+    padding: 10px 25px;
     font-weight: 400;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -77,8 +77,10 @@
     }
     .events-left {
         width: 90%;
+        margin: auto;
     }
     .events-right {
         width: 90%;
+        margin: auto;
     }
 }

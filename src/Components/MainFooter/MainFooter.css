@@ -34,16 +34,17 @@ h4 {
     max-width: 70%;
 }
 .contact-details  p {
-    color: rgba(255, 255, 255, 1);
+    color: gray;
     line-height: 1.5em; 
+    font-size: 13px;
 }
 .contact-details .label {
-    color: gray;
+    color: rgba(255, 255, 255, 1);
     font-family: 'Brown-Medium';
     margin-bottom: 6px;   
 }
 .contact-details .label:hover {
-    color: #fff;
+    color: gray;
 }
 .reg {
     color: rgba(255, 255, 255, 1);
@@ -76,6 +77,7 @@ ul li:hover {
 .social img {
     width: 30px;
     height: auto;
+    object-fit: contain;
 }
 .social .icon_twitter  {
     width: 44px!important;

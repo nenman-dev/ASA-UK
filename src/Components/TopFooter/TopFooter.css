@@ -112,13 +112,23 @@
     border: none;
     cursor: pointer;
 }
+.submit-btn .dark_arrow {
+    width: 20px;
+    display: none;
+}
+
+.submit-btn:hover .dark_arrow {
+    display: block;
+}
+.submit-btn:hover .white_arrow {
+    display: none;
+}
 .submit-btn span {
     display: none;
 }
 .submit-btn img {
     width: 14px;
 }
-
 .submit-btn:disabled {
   opacity: 0.6;
   cursor: not-allowed;

@@ -28,14 +28,14 @@ const MainFooter = () => {
         <div className="col-two">
             <h4>Contact Us</h4>
             <div className="contact-details">
+                <p>e-mail</p>
                 <p>
-                   <a href="mailto:hello@ras.com" className="label">e-mail</a>
+                   <a href="mailto:hello@ras.com" className="label">hello@ras.com</a>
                 </p>
-                <p>hello@ras.com</p>
+                 <p>address</p>
                 <p>
-                    <a href="" target="_blank" rel="noopener noreferrer" className="label">address</a>
+                    <a href="" target="_blank" rel="noopener noreferrer" className="label">The Royal African Society is hosted by <br/>SOAS, University of London.</a>
                 </p>
-                <p>The Royal African Society is hosted by <br/>SOAS, University of London.</p>
                 <div className='reg'>Registered Charity by <br />S1062764</div>
             </div>
         </div>
