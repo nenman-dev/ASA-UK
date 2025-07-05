@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './Topbar.css'
-import search_icon from '../../assets/search.svg'
+import search_icon from '/src/assets/search.svg'
 import { Link } from 'react-scroll';
 
 const Topbar = () => {
