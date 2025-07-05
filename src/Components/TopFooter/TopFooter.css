@@ -30,9 +30,9 @@
     font-family: 'Brown';
     font-size: 18px;
     font-weight: 400;
-    position: relative;
-    bottom: 20px;
     width: 90%;
+    position: relative;
+    bottom: 8px;
 }
 .custom-dropdown {
   position: relative;
@@ -49,8 +49,6 @@
   width: 16px;
   height: 16px;
   transition: transform 0.2s ease;
-  position: relative;
-  bottom: 10px;
   rotate: 90deg;
 }
 .dropdown-arrow.open {
@@ -85,7 +83,7 @@
   flex-direction: column;
   width: 20%;
 }
-.form-group label {
+.form-group ::placeholder {
     font-weight: 400;
     color: #FFFFFF;
     font-family: 'Brown';
@@ -95,6 +93,7 @@
 .form-group input {
   padding: 5px;
   border: none;
+  outline: none;
   color: #FFFFFF;
   font-family: 'Brown';
   border-bottom: 2px solid #FFFFFF!important;
@@ -135,24 +134,26 @@
 }
 
 @media (max-width: 1000px) {
+    .newsletter-row {
+        gap:0;
+    }
     .top-footer-content {
         width: 90%;
     }
     .newsletter-row p {
         font-size: 15px;
+        bottom: 7px;
     }
     .dropdown-arrow {
-        width: 12px;
+        width: 10px;
         height: 12px;
-        bottom: 12px;
     }
     .form-group {
         width: 20%;
     }
-    .form-group label {
+    .form-group::placeholder {
         font-size: 14px;
     }
-
     .form-group input {
         font-size: 13px;
     }
@@ -180,7 +181,9 @@
         align-items: flex-start;
     }
     .newsletter-row p {
-        bottom: 0px;
+        bottom: 5px;
+        font-size: 18px;
+        
     }
     .dropdown-arrow {
         top: 9px;
@@ -193,7 +196,6 @@
     .form-group input {
         position: relative;
         bottom: 13px;
-        left: 20px;
     }
     .dropdown-options {
         position: absolute;
@@ -209,7 +211,8 @@
         border: 2px solid;
         color: #eee;
         border-radius: 30px;
-        margin-bottom: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
     }
     .submit-btn:hover {
         background: #eee;

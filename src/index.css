@@ -35,35 +35,17 @@ a {
         padding-right: 5%!important;
     }
 }
+
+
 .btn {
     color: #FFFFFF; 
     background: #EF6D1D;
     font-size: 14px;
     border-radius: 30px;
-    border: 1px solid #FFFFFF;
     cursor: pointer;
     outline: 0;
+    border: none!important;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-}
-
-.btn.green {
-    background: #123234;
-    color: #FFFFFF; 
-    padding: 8px 17px;
-    font-size: 15px;
-    border-radius: 30px;
-    border: 0;
-    cursor: pointer;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Brown-Medium';
-}
-.btn.green:hover {
-    background: #ffffff;
-    color: #000000;  
-    border: 2px solid #123234;
 }

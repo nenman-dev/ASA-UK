@@ -40,42 +40,44 @@ const Topbar = () => {
           <li onClick={() => setShowLoginModal(true)} className='topbar-login'>
             Members Login
           </li>
-          <li className="topbar-search">
-            {showSearch ? (
-              <form
-                className="search-form"
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  if (searchQuery.trim() !== '') {
-                    setSearching(true);
-                    setTimeout(() => {
-                      setSearching(false);
-                    }, 2000);
-                  }
+        <li className="topbar-search">
+          {showSearch ? (
+            <form
+              className="search-form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (searchQuery.trim() !== '') {
+                  setSearching(true);
+                  setSearchQuery('Searching...');
+                  setTimeout(() => {
+                    setSearching(false);
+                    setSearchQuery('');
+                    setShowSearch(false);
+                  }, 2000);
+                }
+              }}
+            >
+              <input
+                type="text"
+                className="search-input"
+                autoFocus
+                placeholder="Search..."
+                value={searchQuery}
+                onChange={(e) => {
+                  if (!searching) setSearchQuery(e.target.value);
                 }}
-              >
-                <div className="search-inline-wrapper">
-                  <input
-                    type="text"
-                    className="search-input"
-                    autoFocus
-                    placeholder="Search..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    onBlur={() => {
-                      if (!searching && searchQuery.trim() === '') setShowSearch(false);
-                    }}
-                  />
-                  {searching && <span className="searching-inline">Searching...</span>}
-                </div>
-              </form>
-            ) : (
-              <span onClick={() => setShowSearch(true)}>
-                <img src={search_icon} alt="search" /> Search
-              </span>
-            )}
-          </li>
-        </ul>
+                onBlur={() => {
+                  if (!searching && searchQuery.trim() === '') setShowSearch(false);
+                }}
+              />
+            </form>
+          ) : (
+            <span onClick={() => setShowSearch(true)}>
+              <img src={search_icon} alt="search" /> Search
+            </span>
+          )}
+        </li>
+      </ul>
       </div>
       {showLoginModal && (
         <div className='modal-backdrop'>
@@ -83,7 +85,7 @@ const Topbar = () => {
             <button className='modal-close' onClick={() => setShowLoginModal(false)}>
               ×
             </button>
-            <h3>Login</h3>
+            <h3>Members Login</h3>
             <form className='login-form'>
               <input
                 type='text'

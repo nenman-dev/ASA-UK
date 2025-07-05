@@ -68,18 +68,18 @@ const TopFooter = () => {
             />
           </div>
           <div className='form-group'>
-            <label htmlFor="firstName">First Name *</label>
-            <input id="firstName" type="text" name="firstName" required />
+            <label htmlFor="firstName"></label>
+            <input id="firstName" placeholder='First Name *' type="text" name="firstName" required  />
             <ValidationError prefix="First Name" field="firstName" errors={state.errors}/>
           </div>
           <div className='form-group'>
-            <label htmlFor="lastName">Last Name *</label>
-            <input id="lastName" type="text" name="lastName" required />
+            <label htmlFor="lastName"></label>
+            <input id="lastName"placeholder='Last Name *' type="text" name="lastName" required />
             <ValidationError prefix="Last Name" field="lastName" errors={state.errors}/>
           </div>
           <div className='form-group'>
-            <label htmlFor="email">E-mail *</label>
-            <input id="email" type="email" name="email" required />
+            <label htmlFor="email"></label>
+            <input id="email" placeholder='E-mail *' type="email" name="email" required />
             <ValidationError prefix="Email" field="email" errors={state.errors}/>
           </div>
           <button type="submit" disabled={state.submitting} className='submit-btn'>

@@ -43,13 +43,12 @@
     justify-content: center;
 }
 .btn .dark_arrow {
-    width: 20px!important;
+    width: 15px!important;
     display: none;
 }
 .btn:hover {
     color: black; 
     background: #FFFFFF;
-    border: 1px solid  #EF6D1D;
 }
 .btn:hover .dark_arrow {
     display: block;

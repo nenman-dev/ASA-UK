@@ -1,43 +1,47 @@
 .topbar {
-    display: flex;
-    justify-content: right;
-    margin-bottom: 1px;
-    margin-top: 1px;
-    align-items: center;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  align-items: center;
 }
 .topbar-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-right: 20px;
 }
 .topbar-links li{
-    text-decoration: none;
-    list-style: none;
-    border-left: 2px solid #000000;
-    font-family: 'Brown-Medium';
-    font-size: 14px;
-    color: #000000;
-    text-align: center;
-    padding-left: 20px; 
-    margin: 5px 20px; 
-    cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Brown-Medium';
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  padding-left: 20px; 
+  margin: 5px 20px; 
+  cursor: pointer;
 }
 .topbar-links li:hover {
-    color: #ef6d1d;
+  color: #ef6d1d;
 }
 .topbar-links .topbar-contact {
-    border: none!important;
-    font-family: 'Brown-Medium';
-    font-size: 14px;
-    color: #000000;
+  border: none!important;
+  font-family: 'Brown-Medium';
+  font-size: 14px;
+  color: #000000;
+}
+.topbar-links .topbar-login,.topbar-search {
+  border-left: 2px solid black; 
+}
+span {
+  display: flex;
 }
 span img{
-    align-self: center;
-    margin-right: 10px;
-    width: 15px;   
-
+  align-self: center;
+  margin-right: 10px;
+  width: 15px;   
 }
 .search-input {
   display: block;
@@ -96,4 +100,17 @@ span img{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .topbar-links {
+    gap: 0;
+  }
+  .topbar-links li{
+    font-size: 12px;
+    padding-left: 5px; 
+    margin: 5px 10px; 
+  }
+  .topbar-links .topbar-contact {
+    font-size: 12px;
+  }
 }

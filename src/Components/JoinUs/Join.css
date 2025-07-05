@@ -48,18 +48,40 @@
   margin-top: 5px;
   height: 400px;
 }
-.btn.join {
+.join-btn {
+    color: #FFFFFF; 
+    background: #EF6D1D;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     padding: 13px!important;
-    padding-left: 10px;
-    margin-top: 5px;
+    padding-top: 8px;
     font-size: 18px;
-    font-family: 'Brown-Medium';
-    border: none!important;
+    border: none;
 }
-.btn.join span {
+.join-btn span img{
     align-items: center ;
     margin-left: 10px!important;
+    width: 10px;
+}
+
+.join-btn .dark_arrow {
+    width: 16px;
+    display: none;
+}
+.join-btn:hover {
+    color: black; 
+    background: #FFFFFF;
+    border: 2px solid black;
+}
+.join-btn:hover .dark_arrow {
+    display: block;
+}
+.join-btn:hover .white_arrow {
+    display: none;
 }
 @media (max-width: 970px) {
     .join-text {
@@ -77,9 +99,7 @@
         margin-top: 15px!important; 
         margin: auto;
     }
-    .btn.join {
-        width: 75%;
-    }
+
     .join-right {
         width: 90%;
         padding: 0;
@@ -93,7 +113,7 @@
         width: 100%;
         height: auto;
     }
-    .btn.join {
+    .join-btn {
         width: 43%;
         padding: 7px;
         display: flex;
@@ -104,7 +124,7 @@
        
         font-family: 'Brown-Medium';
     }
-    .btn.join span {
+    .join-btn span {
         margin-left: 10px!important;
         align-items: center;
         position: relative;
@@ -112,7 +132,8 @@
     }
 }
 @media (max-width: 500px) {
-    .btn.join {
-        width: 55%;
+    .join-btn {
+        width: 65%;
     }
+
 }
