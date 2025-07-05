@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './Topbar.css'
-import search_icon from '../../assets/search.svg'
 import { Link } from 'react-scroll';
 
 const Topbar = () => {
@@ -73,7 +72,7 @@ const Topbar = () => {
             </form>
           ) : (
             <span onClick={() => setShowSearch(true)}>
-              <img src={search_icon} alt="search" /> Search
+              <img src='/search.svg' alt="search" /> Search
             </span>
           )}
         </li>
