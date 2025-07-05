@@ -54,7 +54,7 @@
     color: #FFFFFF; 
     padding: 10px 25px;
     background: #EF6D1D;
-    width: 42%;
+    width: 44%;
     font-size: 14px;
     border-radius: 30px;
     border: 2px solid #FFFFFF;
@@ -115,7 +115,7 @@
         width: 70px;
     }
     .about-btn {
-        width: 29%;
+        width: 31%;
     }
 }
 @media (max-width: 660px) {
