@@ -77,7 +77,7 @@
 }
 .about-btn:hover {
     color: black; 
-    background: #FFFFFF;
+    background: #FFFFFF!important;
     border: 2px solid black;
 }
 .about-btn:hover .dark_arrow {
